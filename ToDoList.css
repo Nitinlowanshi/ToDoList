@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+      width: 100%;
+      height: 100vh;
+      background-color: rgb(43, 208, 226);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+#todo-list{
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+input{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px grey;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    cursor: pointer;
+    background-color: blueviolet;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
